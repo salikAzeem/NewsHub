@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+NewsHub 📰
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A Real-Time News Mobile Application
 
-## Get started
+NewsHub is a cross-platform mobile news application built using React Native and Expo. It fetches real-time news from public APIs and presents them in a clean, user-friendly interface. The app allows users to explore trending news, search for specific topics, bookmark articles, and share news with others.
 
-1. Install dependencies
+Features
 
-   ```bash
-   npm install
-   ```
+📡 Real-time news feed
 
-2. Start the app
+🔍 Search news by keyword
 
-   ```bash
-   npx expo start
-   ```
+📂 Category-based filtering
 
-In the output, you'll find options to open the app in a
+↻ Pull to refresh
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+⭐ Bookmark / Save articles (persistent)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+📤 Share articles
 
-## Get a fresh project
+🌐 Open full article in browser
 
-When you're ready, run:
+📱 Multi-screen navigation
 
-```bash
-npm run reset-project
-```
+📦 Android APK generated using Expo EAS
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Tech Stack
 
-## Learn more
+React Native (Expo)
 
-To learn more about developing your project with Expo, look at the following resources:
+JavaScript
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+REST APIs (GNews / NewsAPI)
 
-## Join the community
+Axios
 
-Join our community of developers creating universal apps.
+AsyncStorage
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+React Navigation
+
+Screens
+
+Home Screen – displays latest news
+
+Search Screen – search news by keyword
+
+Details Screen – view full article details
+
+Saved Screen – view bookmarked articles
+
+How to Run Locally
+npm install
+npx expo start
+
+
+Scan the QR code using Expo Go app on your mobile device or open in web browser.
+
+APK Build
+
+The application is packaged into an installable Android APK using Expo EAS Build.
+
+eas build -p android --profile preview
+
+Demo
+![6332619186068196574](https://github.com/user-attachments/assets/06bbadcc-5f13-406b-8f06-4f4ad1256d80)
+![6332619186068196573](https://github.com/user-attachments/assets/7ba2b87b-c0c4-44ea-a6b7-be98acfa62a0)
+
+
+
+About the Project
+
+This project was built as part of a portfolio to demonstrate real-world mobile application development skills, including API integration, navigation, state management, persistent storage, and deployment.
+
+Author
+
+Salik Azeem
+B.Tech Computer Science Engineering
+Mobile App Developer (React Native)
